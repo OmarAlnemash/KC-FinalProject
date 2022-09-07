@@ -1,0 +1,98 @@
+.topnav {
+  background-color: #264653;
+  overflow: hidden;
+  width: 100%;
+}
+.topnave {
+  padding: 0%;
+  margin-top: -9px;
+  width: 100%;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+.topnav a:hover {
+  background-color: #6c757d;
+  color: #212529;
+}
+
+.topnav a.active {
+  background-color: #69a297;
+  color: #dee2e6;
+}
+body {
+  background-color: #778da9;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: -80px;
+}
+hr {
+  width: 99%;
+}
+div.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+div.form input,
+div.form button {
+  outline: none;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+div.form input:focus,
+div.form button:hover {
+  border-color: #69a297;
+}
+div#container {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div#container div {
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 30px;
+  transition: all 0.9s;
+  margin: 20px 0;
+  border: #264653;
+  border-radius: 5px;
+}
+div#container div:hover {
+  transform: translateY(-3px);
+}
+div#container div h1 {
+  font-size: 15px;
+}
+div#container div h3 {
+  font-size: 20px;
+}

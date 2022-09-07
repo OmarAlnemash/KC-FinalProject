@@ -1,0 +1,40 @@
+.topnav {
+  background-color: #264653;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #6c757d;
+  color: #212529;
+}
+
+.topnav a.active {
+  background-color: #69a297;
+  color: #dee2e6;
+}
+form {
+  text-align: center;
+}
+body {
+  background-color: #778da9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: -0px;
+  padding: 0px;
+  margin: 0%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
